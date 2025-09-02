@@ -3,7 +3,7 @@ import { getAnalytics, logEvent } from 'firebase/analytics'
 import { report } from '../flashup'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCxPzE5UxbsBQAxVbeCPny4gV15w8mKCWo",
+  apiKey: env.VITE_FIREBASE_API_KEY,
   authDomain: "recorder-pro-50451.firebaseapp.com",
   databaseURL: "https://recorder-pro-50451.firebaseio.com",
   projectId: "recorder-pro-50451",

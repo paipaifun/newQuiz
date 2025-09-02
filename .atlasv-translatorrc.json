@@ -1,0 +1,10 @@
+{
+  "fileType": "json", 
+  "sourceFilePath": "./src/i18n/langs/en/locale.json", 
+  "outputPattern": "./src/i18n/langs/{language}/locale.json",
+  "targetLanguages": ["ar", "de", "es", "fr", "id", "it", "ja", "ko", "pt", "pl","ru", "th", "vi", "zh-tw"],
+  "translateAll": [], 
+  "keysToSkip": "",
+  "translationModel": "gemini-2.5-flash",
+  "prompt":""
+}
